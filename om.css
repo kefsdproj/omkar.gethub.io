@@ -1,0 +1,71 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 4OO;
+    line-height: 1.8em;
+    color: #666;
+
+}
+.img1 {
+   background-image: url(images/ka2.jpg); 
+   min-height: 80%;
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.img2{
+    background-image: url(images/ka5.jpg);
+    min-height: 400px;
+}
+.img3 {
+    background-image: url(images/ka12.png);
+    min-height: 400px;
+}
+.img4 {
+    background-image: url(images/kannada-fest-2-kuvempu.avif);
+    min-height: 800px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1,
+.img2,
+.img3 
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.textbg {
+    background: #313534;
+    color: #fff;
+    padding: 10px;
+}
+.section {
+    padding: 50px 80px ;
+    text-align: center;
+
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
